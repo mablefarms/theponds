@@ -1,4 +1,4 @@
-// The Ponds at Mable Farms Website Design by Tyler Kinney | thePonds_slideshowScript.js v1.1.2 | 02.04.2023 : 04.23.2023
+// The Ponds at Mable Farms Website Design by Tyler Kinney | thePonds_slideshowScript.js v1.1.2 | 02.04.2023 : 06.05.2023
 // ** NOTE ** Images for the slides need to be at least 775px wide and 475px tall in order to avoid image edges inside canvas
 // Defining main function for assembling slideshow
 function slideshow(canvasID, parentID, vendorName, vendorInfo, vendorIcon, images, toggler){
