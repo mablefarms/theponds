@@ -23,7 +23,7 @@ a:visited:not(:hover){
 	margin: 0px;
 }
 body{
-	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/7fac0ba5-7e03-46ec-b0de-8da8c0212986/thePonds_BG.jpg");
+	background-image: url("images/layout/thePonds_BG.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 75% 25%;
@@ -73,7 +73,7 @@ p{
 	margin: 0px;
 }
 header{
-	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/7434a037-13ac-4cb0-a310-7e871d426fa2/thePonds_LOGO.png");
+	background-image: url("images/layout/thePonds_LOGO.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -166,7 +166,7 @@ img{
 	width: 100%;
 }
 .leftFrame{
-	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/efb1023b-df05-48ee-85d2-1457e0f8624e/leftStripe.png");
+	background-image: url("images/layout/leftStripe.png");
 	background-color: rgba(256, 256, 256, 0.45);
 	background-repeat: repeat-y;
 	background-position: right;
@@ -177,7 +177,7 @@ img{
 	grid-area: middleF;
 }
 .rightFrame{
-	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/2c6a8ff3-c06c-479e-9421-a5462c34f8e0/rightStripe.png");
+	background-image: url("images/layout/rightStripe.png");
 	background-color: rgba(256, 256, 256, 0.45);
 	background-repeat: repeat-y;
 	background-position: left;
@@ -196,7 +196,7 @@ img{
 	margin: 0px;
 }
 .bottomRight{
-	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/35a75a0e-fbac-4f9e-a6ec-dc1855e71067/bottomRightCorner.png");
+	background-image: url("images/layout/bottomRightCorner.png");
 	background-position: top left;
 	background-repeat: no-repeat;
 	grid-area: bottomRight;
@@ -204,7 +204,7 @@ img{
 	margin: 0px;
 }
 .bottomLeft{
-	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/381ad5f6-b907-4270-9229-0dcd260426de/bottomLeftCorner.png");
+	background-image: url("images/layout/bottomLeftCorner.png");
 	background-position: top right;
 	background-repeat: no-repeat;
 	grid-area: bottomLeft;
@@ -212,7 +212,7 @@ img{
 	margin: 0px;
 }
 .topRight{
-	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/ad4854b4-17e0-49b7-ab38-b605e1f87155/topRightCorner.png");
+	background-image: url("images/layout/topRightCorner.png");
 	background-position: bottom left;
 	background-repeat: no-repeat;
 	grid-area: topRight;
@@ -227,13 +227,13 @@ img{
 .content h4{text-align: justify;}
 .content p {text-align: justify;}
 .topLeft{
-	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/818f8f42-49f2-490b-a3f1-e632635e93e1/topLeftCorner.png");
+	background-image: url("images/layout/topLeftCorner.png");
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	grid-area: topLeft;
 }
 .bottom{
-	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/2e86383b-f74e-4426-9147-33bd1baa7735/bottomSide.png");
+	background-image: url("images/layout/bottomSide.png");
 	background-position: top;
 	background-repeat: repeat-x;
 	grid-area: bottomW;	
@@ -241,19 +241,19 @@ img{
 	margin: 0px;
 }
 .right{
-	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/67c89787-de07-4b64-9a41-bc7c4e244c7b/rightSide.png");
+	background-image: url("images/layout/rightSide.png");
 	background-position: left;
 	background-repeat: repeat-y;
 	grid-area: rightW;
 }
 .left{
-	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/8d4a5482-08e9-4902-ae47-5b6a0bb11256/leftSide.png");
+	background-image: url("images/layout/leftSide.png");
 	background-repeat: repeat-y;
 	background-position: right;
 	grid-area: leftW;
 }
 .top{
-	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/7535e79f-1e1d-4c53-91c8-c3f791967b7d/topSide.png");
+	background-image: url("images/layout/topSide.png");
 	background-position: bottom;
 	background-repeat: repeat-x;
 	grid-area: topW;
@@ -267,7 +267,7 @@ img{
 .packages{text-align: center;}
 .packages ul{
 	font: 16px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	list-style: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/e8630b74-414f-40fe-a32b-9d42378bb9e6/bullet.png");
+	list-style: url("images/layout/bullet.png");
 	padding: 3px 0px 0px 25px;
 	display: inline-block;
 	text-align: left;
