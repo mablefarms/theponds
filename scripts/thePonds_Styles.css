@@ -78,8 +78,8 @@ header{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	min-height: 120px;
-	min-width: 120px;
+	min-height: 75px;
+	min-width: 75px;
 	height: 20vh;
 	width: 100%;
 }
