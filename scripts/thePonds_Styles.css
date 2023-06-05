@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* The Ponds at Mable Farms Website Design by Tyler Kinney | thePonds_Styles.css v1.0.2 | 02.04.2023 : 04.20.2023 */
+
+a:link{
+	text-decoration-line: none;
+	color: #000000;
+	padding: 0px;
+	margin: 0px;
+}
+a:hover{
+	color: #999999;
+	padding: 0px;
+	margin: 0px;
+}
+a:active{
+	color: #666666;
+	padding: 0px;
+	margin: 0px;
+}
+a:visited:not(:hover){
+	color: #000000;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/7fac0ba5-7e03-46ec-b0de-8da8c0212986/thePonds_BG.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 75% 25%;
+	margin: 0px;
+	padding: 0px;
+}
+hr{
+	color: #dddddd;
+	margin: 3px 0px;
+	padding: 0px;	
+}
+h1 {
+	font: 36px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding: 15px 0px 0px 0px;
+	text-align: center;
+	margin: 0px;
+}
+h2{
+	font: 28px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+h3{
+	font: 24px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+h4{
+	font: 20px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+h5{
+	font: 18px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+iframe{margin: 0px; padding: 0px}
+p{
+	font: 14px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/7434a037-13ac-4cb0-a310-7e871d426fa2/thePonds_LOGO.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 150px;
+	width: 100%;
+}
+img{
+	padding: 0px;
+	margin: 0px;
+}
+
+#mainNavigation{
+	font: 18px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+	padding: 0px;
+	width: 100%;
+}
+#mainNavigation ul{
+	user-select: none;
+	display: inline-block;
+	padding: 0px 3rem;
+	list-style: none;
+	margin: 0px;
+}
+#mainNavigation ul li{
+	padding: 0px 24px 0px 20px;
+	display: inline-block;
+	text-align: center;
+	min-width: 2rem;
+	height: 18px;
+}
+#mainNavigation ul li:not(:last-child){border-right: 2px solid #000000;}
+#mainNavigation ul li a:link{text-decoration-line: none; color: #000000;}
+#mainNavigation ul li a:active{color: #999999;}
+#mainNavigation ul li a:hover{color: #666666;}
+#mainNavigation ul li a:visited:not(:hover){color: #000000;}
+#secondaryNavigation{
+	grid-template-areas: "contact map social";
+	grid-template-columns: 20% 60% 20%;
+	width: 100%;
+	display: grid;
+	padding: 0px;
+	margin: 0px;
+}
+#contactInfo{grid-area: contact; border-top: 1px solid rgba(0, 0, 0, 0.25); border-right: 1px solid rgba(0, 0, 0, 0.25);}
+#siteMap{grid-area: map; border-top: 1px solid rgba(0, 0, 0, 0.25);}
+#siteMap ul {
+	user-select: none;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+#socialMedia{
+	border-left: 1px solid rgba(0, 0, 0, 0.25);
+	border-top: 1px solid rgba(0, 0, 0, 0.25);
+	text-align: center;
+	grid-area: social;
+	user-select: none;
+}
+#secondaryNavigation #siteMap{
+	padding: 0px 0px 15px 20px;
+	user-select: none;
+	list-style: none;
+	margin: 0px;
+}
+#contactInfo p{text-align: center;}
+#thePonds_Vendors{
+	grid-template-areas: "Left Right";
+	grid-template-columns: 50% 50%;
+	display: grid;
+	margin: auto;
+	height: auto;
+	width: 100%;
+}
+#thePonds_Vendors_LeftColumn {
+	grid-area: Left;
+	text-align: center;
+}
+#thePonds_Vendors_RightColumn {
+	grid-area: Right;
+	text-align: center;
+}
+
+.mainFrame{
+	grid-template-areas: "leftF middleF rightF";
+	grid-template-columns: 10% 80% 10%;
+	display: grid;
+	height: auto;
+	width: 100%;
+}
+.leftFrame{
+	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/efb1023b-df05-48ee-85d2-1457e0f8624e/leftStripe.png");
+	background-color: rgba(256, 256, 256, 0.45);
+	background-repeat: repeat-y;
+	background-position: right;
+	grid-area: leftF;
+}
+.midFrame{
+	background-color: rgba(256, 256, 256, 0.85);
+	grid-area: middleF;
+}
+.rightFrame{
+	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/2c6a8ff3-c06c-479e-9421-a5462c34f8e0/rightStripe.png");
+	background-color: rgba(256, 256, 256, 0.45);
+	background-repeat: repeat-y;
+	background-position: left;
+	grid-area: rightF;
+}
+.contentWrap{
+	grid-template-areas:
+		"topLeft topW topRight"
+		"leftW conten rightW"
+		"bottomLeft bottomW bottomRight";
+	grid-template-columns: 5% 90% 5%;
+	grid-template-rows: 20px auto 20px;
+	max-width: 100%;
+	display: grid;
+	padding: 0px;
+	margin: 0px;
+}
+.bottomRight{
+	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/35a75a0e-fbac-4f9e-a6ec-dc1855e71067/bottomRightCorner.png");
+	background-position: top left;
+	background-repeat: no-repeat;
+	grid-area: bottomRight;
+	padding: 0px;
+	margin: 0px;
+}
+.bottomLeft{
+	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/381ad5f6-b907-4270-9229-0dcd260426de/bottomLeftCorner.png");
+	background-position: top right;
+	background-repeat: no-repeat;
+	grid-area: bottomLeft;
+	padding: 0px;
+	margin: 0px;
+}
+.topRight{
+	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/ad4854b4-17e0-49b7-ab38-b605e1f87155/topRightCorner.png");
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	grid-area: topRight;
+}
+.content{
+	background-color: rgba(128, 128, 128, 0.15);
+	grid-area: conten;
+	min-height: 150px;
+	padding: 0px;
+	margin: 0px;
+}
+.content h4{text-align: justify;}
+.content p {text-align: justify;}
+.topLeft{
+	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/818f8f42-49f2-490b-a3f1-e632635e93e1/topLeftCorner.png");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	grid-area: topLeft;
+}
+.bottom{
+	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/2e86383b-f74e-4426-9147-33bd1baa7735/bottomSide.png");
+	background-position: top;
+	background-repeat: repeat-x;
+	grid-area: bottomW;	
+	padding: 0px;
+	margin: 0px;
+}
+.right{
+	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/67c89787-de07-4b64-9a41-bc7c4e244c7b/rightSide.png");
+	background-position: left;
+	background-repeat: repeat-y;
+	grid-area: rightW;
+}
+.left{
+	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/8d4a5482-08e9-4902-ae47-5b6a0bb11256/leftSide.png");
+	background-repeat: repeat-y;
+	background-position: right;
+	grid-area: leftW;
+}
+.top{
+	background-image: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/7535e79f-1e1d-4c53-91c8-c3f791967b7d/topSide.png");
+	background-position: bottom;
+	background-repeat: repeat-x;
+	grid-area: topW;
+}
+.vid{
+	padding: 0px;
+	margin: 0px;
+	height: 40.5vw;
+	width: 72vw;
+}
+.packages{text-align: center;}
+.packages ul{
+	font: 16px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	list-style: url("https://images.squarespace-cdn.com/content/5ce7ed2c9d743a00015eeb24/e8630b74-414f-40fe-a32b-9d42378bb9e6/bullet.png");
+	padding: 3px 0px 0px 25px;
+	display: inline-block;
+	text-align: left;
+	margin: 0px;
+}
+.packages table{
+	font: 18px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	width: 80%;
+}
+.packages table td:first-child{text-align: left; width: 25%;}
+.packages table td:last-child{text-align: right; width: 25%;}
+.canvasWrap{
+	padding: 0px;
+	margin:auto;
+}

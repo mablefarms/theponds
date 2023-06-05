@@ -1,0 +1,1 @@
+This is a dedicated repository for The Ponds at Mable Farms event venue website. The data herein is not intended for any other purpose, with exception to usage as permissed by the owners of The Ponds at Mable Farms.
