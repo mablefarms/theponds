@@ -24,51 +24,51 @@ a:visited:not(:hover){
 }
 body{
 	background-image: url("../images/layout/thePonds_BG.jpg");
-	background-attachment: fixed;
+	background-attachment:fixed;
 	background-repeat: no-repeat;
 	background-position: 75% 25%;
 	background-size: cover;
-	margin: 0px;
 	padding: 0px;
+	margin: 0px;	
 }
 hr{
 	color: #dddddd;
-	margin: 3px 0px;
+	margin: 0.2778vh 0px;
 	padding: 0px;	
 }
 h1 {
-	font: 36px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	padding: 15px 0px 0px 0px;
+	font: 36em Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding: 1.389vh 0px 0px 0px;
 	text-align: center;
 	margin: 0px;
 }
 h2{
-	font: 28px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font: 28em Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	text-align: center;
 	padding: 0px;
 	margin: 0px;
 }
 h3{
-	font: 24px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font: 24em Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	text-align: center;
 	padding: 0px;
 	margin: 0px;
 }
 h4{
-	font: 20px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font: 20em Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	text-align: center;
 	padding: 0px;
 	margin: 0px;
 }
 h5{
-	font: 18px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font: 18em Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	text-align: center;
 	padding: 0px;
 	margin: 0px;
 }
 iframe{margin: 0px; padding: 0px}
 p{
-	font: 14px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font: 14em Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	text-align: center;
 	padding: 0px;
 	margin: 0px;
@@ -78,7 +78,7 @@ header{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	height: 150px;
+	height: 13.89vh;
 	width: 100%;
 }
 img{
@@ -87,8 +87,8 @@ img{
 }
 
 #mainNavigation{
-	font: 18px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	margin: 10px 0px 0px 0px;
+	font: 18em Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin: 0.926vh 0px 0px 0px;
 	text-align: center;
 	padding: 0px;
 	width: 100%;
@@ -101,13 +101,13 @@ img{
 	margin: 0px;
 }
 #mainNavigation ul li{
-	padding: 0px 24px 0px 20px;
+	padding: 0px 1.248vw 0px 1.04vw;
 	display: inline-block;
 	text-align: center;
 	min-width: 2rem;
-	height: 18px;
+	height: 1.6668vh;
 }
-#mainNavigation ul li:not(:last-child){border-right: 2px solid #000000;}
+#mainNavigation ul li:not(:last-child){border-right: 0.104vw solid #000000;}
 #mainNavigation ul li a:link{text-decoration-line: none; color: #000000;}
 #mainNavigation ul li a:active{color: #999999;}
 #mainNavigation ul li a:hover{color: #666666;}
@@ -120,8 +120,8 @@ img{
 	padding: 0px;
 	margin: 0px;
 }
-#contactInfo{grid-area: contact; border-top: 1px solid rgba(0, 0, 0, 0.25); border-right: 1px solid rgba(0, 0, 0, 0.25);}
-#siteMap{grid-area: map; border-top: 1px solid rgba(0, 0, 0, 0.25);}
+#contactInfo{grid-area: contact; border-top: 1px solid rgba(0, 0, 0, 0.25); border-right: 0.052vw solid rgba(0, 0, 0, 0.25);}
+#siteMap{grid-area: map; border-top: 0.0926vh solid rgba(0, 0, 0, 0.25);}
 #siteMap ul {
 	user-select: none;
 	list-style: none;
@@ -129,14 +129,14 @@ img{
 	margin: 0px;
 }
 #socialMedia{
-	border-left: 1px solid rgba(0, 0, 0, 0.25);
-	border-top: 1px solid rgba(0, 0, 0, 0.25);
+	border-left: 0.052vw solid rgba(0, 0, 0, 0.25);
+	border-top: 0.0926vh solid rgba(0, 0, 0, 0.25);
 	text-align: center;
 	grid-area: social;
 	user-select: none;
 }
 #secondaryNavigation #siteMap{
-	padding: 0px 0px 15px 20px;
+	padding: 0px 0px 1.389vh 1.04vw;
 	user-select: none;
 	list-style: none;
 	margin: 0px;
@@ -163,7 +163,7 @@ img{
 	grid-template-areas: "leftF middleF rightF";
 	grid-template-columns: 10% 80% 10%;
 	display: grid;
-	height: auto;
+	height: 100%;
 	width: 100%;
 }
 .leftFrame{
@@ -190,7 +190,7 @@ img{
 		"leftW conten rightW"
 		"bottomLeft bottomW bottomRight";
 	grid-template-columns: 5% 90% 5%;
-	grid-template-rows: 20px auto 20px;
+	grid-template-rows: 1.04vw auto 1.04vw;
 	max-width: 100%;
 	display: grid;
 	padding: 0px;
@@ -221,7 +221,7 @@ img{
 .content{
 	background-color: rgba(128, 128, 128, 0.15);
 	grid-area: conten;
-	min-height: 150px;
+	min-height: 13.89vh;
 	padding: 0px;
 	margin: 0px;
 }
@@ -267,16 +267,16 @@ img{
 }
 .packages{text-align: center;}
 .packages ul{
-	font: 16px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font: 16em Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	list-style: url("../images/layout/bullet.png");
-	padding: 3px 0px 0px 25px;
+	padding: 0.2778vh 0px 0px 1.3vw;
 	display: inline-block;
 	text-align: left;
 	margin: 0px;
 }
 .packages table{
-	font: 18px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+	font: 18em Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	border-bottom: 0.0926vh solid rgba(0, 0, 0, 0.45);
 	margin: 0px auto 0px auto;
 	padding: 0px;
 	width: 80%;
