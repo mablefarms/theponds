@@ -167,8 +167,9 @@ img{
 .mainFrame{
 	grid-template-areas: "leftF middleF rightF";
 	grid-template-columns: 10% 80% 10%;
+	min-height: 600px;
 	display: grid;
-	height: 100%;
+	height: 100%;	
 	width: 100%;
 }
 .leftFrame{
