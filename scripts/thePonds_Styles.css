@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* The Ponds at Mable Farms Website Design by Tyler Kinney | thePonds_Styles.css v1.0.2 | 02.04.2023 : 06.05.2023 */
+/* The Ponds at Mable Farms Website Design by Tyler Kinney | thePonds_Styles.css v1.0.2 | 02.04.2023 : 06.06.2023 */
 
 a:link{
 	text-decoration-line: none;
@@ -78,8 +78,8 @@ header{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	min-height: 75px;
-	min-width: 75px;
+	min-height: 50px;
+	min-width: 50px;
 	height: 20vh;
 	width: 100%;
 }
@@ -147,7 +147,7 @@ img{
 	margin: 0px;
 }
 #contactInfo p{text-align: center;}
-#thePonds_Vendors{
+.thePonds_Vendors{
 	grid-template-areas: "Left Right";
 	grid-template-columns: 50% 50%;
 	display: grid;
@@ -155,11 +155,11 @@ img{
 	height: auto;
 	width: 100%;
 }
-#thePonds_Vendors_LeftColumn {
+.thePonds_Vendors_LeftColumn {
 	grid-area: Left;
 	text-align: center;
 }
-#thePonds_Vendors_RightColumn {
+.thePonds_Vendors_RightColumn {
 	grid-area: Right;
 	text-align: center;
 }

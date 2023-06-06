@@ -1,4 +1,4 @@
-// The Ponds at Mable Farms Website Design by Tyler Kinney | thePonds_slideshowScript.js v1.1.2 | 02.04.2023 : 06.05.2023
+// Author: Tyler Kinney | thePonds_slideshowScript v1.1.2 | 02.04.2023 : 06.06.2023
 // ** NOTE ** Images for the slides need to be at least 775px wide and 475px tall in order to avoid image edges inside canvas
 // Defining main function for assembling slideshow
 function slideshow(canvasID, parentID, vendorName, vendorInfo, vendorIcon, images, toggler){
@@ -18,7 +18,7 @@ function slideshow(canvasID, parentID, vendorName, vendorInfo, vendorIcon, image
 	parent.appendChild(document.createElement('br'));
 	ctx = canvas.getContext('2d');
 	// Defining local variables related to vendor
-	vName = vendorName, vInfo = vendorInfo;
+	vName = vendorName;
 	loaded = 0;
 	vIcon = new Image();
 	vIcon.onload = function(){ loaded++;};
@@ -140,16 +140,19 @@ function slideshow(canvasID, parentID, vendorName, vendorInfo, vendorIcon, image
 		ctx.lineWidth = 1;
 		ctx.strokeText (vName, 100, 39);
 		ctx.fillStyle = 'rgba(0, 0, 0, 0.85)';
-		ctx.fillText(vName, 102, 41);
+		ctx.fillText(vName, 102, 40.5);
 		ctx.fillStyle = '#FFFFFF';
 		ctx.fillText(vName, 100, 39);
-		ctx.font = '16px Times New Roman';
-		ctx.fillStyle = 'rgba(0, 0, 0, 0.85)';
-		ctx.strokeText(vInfo, 100, 59);
-		ctx.fillText(vInfo, 102, 61);
-		ctx.fillStyle = '#FFFFFF';
-		ctx.fillText(vInfo, 100, 59);
-
+		// Defining local variables for vendor info
+		vInfo = vendorInfo.split(' | ');
+		for(i = 0; i < vInfo.length; i++){
+			ctx.font = '16px Times New Roman';
+			ctx.fillStyle = 'rgba(0, 0, 0, 0.85)';
+			ctx.strokeText(vInfo[i], 100, 59 + (i * 18));
+			ctx.fillText(vInfo[i], 102, 60 + (i * 18));
+			ctx.fillStyle = '#FFFFFF';
+			ctx.fillText(vInfo[i], 100, 59 + (i * 18));
+		}
 	}
 	// Defining function for handling animation
 	function animateSlideshow(){
