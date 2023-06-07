@@ -3,7 +3,7 @@
 // Defining main function for assembling slideshow
 function slideshow(canvasID, parentID, vendorName, vendorInfo, vendorIcon, images, toggler){
 	// Declaring local variables
-	var canvas, ctx, cWidth, cHeight, parent, vName, vInfo, vIcon, loaded, imgs, imgArr, init, i;
+	var canvas, ctx, cWidth, cHeight, parent, vName, vInfo, vIcon, loaded, imgs, imgArr, init, i, starter, animate;
 	// Creating new canvas element to append to designated parent
 	parent = document.getElementById(parentID);
 	canvas = document.createElement('canvas');
@@ -165,8 +165,29 @@ function slideshow(canvasID, parentID, vendorName, vendorInfo, vendorIcon, image
 	var imgInterval = setInterval(imgCheck, 30);
 	function imgCheck(){
 		if(loaded == imgArr.length + 1) {
-			var start = setInterval(animateSlideshow, 30);
+			starter = true;
+			animateSlideshow();
 			clearInterval(imgInterval);
+		}
+	}
+	
+// Animating slideshow based on mouse event
+	canvas.onclick = function(){
+		switch(starter){
+			case true:
+				animate = setInterval(animateSlideshow, 30);
+				starter = false
+				break;
+			case false:
+				clearInterval(animate);
+				starter = true;
+				break;
+			default:
+				if(loaded == imgArr.length + 1) {
+					starter = true;
+					clearInterval(imgInterval);
+				}
+				break;
 		}
 	}
 }
