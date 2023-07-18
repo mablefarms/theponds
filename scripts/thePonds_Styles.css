@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* The Ponds at Mable Farms Website Design by Tyler Kinney | thePonds_Styles.css v1.0.2 | 02.04.2023 : 06.06.2023 */
+/* The Ponds at Mable Farms Website Design by Tyler Kinney | thePonds_Styles.css v1.0.2 | 02.04.2023 : 07.17.2023 */
 
 a:link{
 	text-decoration-line: none;
@@ -33,11 +33,7 @@ body{
 	padding: 0px;
 	margin: 0px;	
 }
-hr{
-	color: #dddddd;
-	margin: 0.2778vh 0px;
-	padding: 0px;	
-}
+hr{color: #dddddd; margin: 0.2778vh 0px; padding: 0px;}
 h1 {
 	font: 2.25em Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	padding: 1.389vh 0px 0px 0px;
@@ -85,10 +81,7 @@ header{
 	height: 20vh;
 	width: 100%;
 }
-img{
-	padding: 0px;
-	margin: 0px;
-}
+img{padding: 0px; margin: 0px;}
 
 #mainNavigation{
 	font: 1.12em Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
@@ -129,12 +122,7 @@ img{
 	border-right: 1px solid rgba(0, 0, 0, 0.25);
 }
 #siteMap{grid-area: map; border-top: 0.0926vh solid rgba(0, 0, 0, 0.25);}
-#siteMap ul {
-	user-select: none;
-	list-style: none;
-	padding: 0px;
-	margin: 0px;
-}
+#siteMap ul {user-select: none; list-style: none; padding: 0px; margin: 0px;}
 #socialMedia{
 	border-left: 0.052vw solid rgba(0, 0, 0, 0.25);
 	border-top: 0.0926vh solid rgba(0, 0, 0, 0.25);
@@ -157,19 +145,12 @@ img{
 	height: auto;
 	width: 100%;
 }
-.thePonds_Vendors_LeftColumn {
-	grid-area: Left;
-	text-align: center;
-}
-.thePonds_Vendors_RightColumn {
-	grid-area: Right;
-	text-align: center;
-}
+.thePonds_Vendors_LeftColumn {grid-area: Left; text-align: center;}
+.thePonds_Vendors_RightColumn {grid-area: Right; text-align: center;}
 
 .mainFrame{
 	grid-template-areas: "leftF middleF rightF";
 	grid-template-columns: 10% 80% 10%;
-	min-height: 600px;
 	display: grid;
 	height: 100%;	
 	width: 100%;
@@ -181,10 +162,7 @@ img{
 	background-position: right;
 	grid-area: leftF;
 }
-.midFrame{
-	background-color: rgba(256, 256, 256, 0.85);
-	grid-area: middleF;
-}
+.midFrame{background-color: rgba(256, 256, 256, 0.85); grid-area: middleF;}
 .rightFrame{
 	background-image: url("../images/layout/rightStripe.png");
 	background-color: rgba(256, 256, 256, 0.45);
@@ -267,12 +245,7 @@ img{
 	background-repeat: repeat-x;
 	grid-area: topW;
 }
-.vid{
-	padding: 0px;
-	margin: 0px;
-	height: 40.5vw;
-	width: 72vw;
-}
+.vid{padding: 0px; margin: 0px; height: 40.5vw; width: 72vw;}
 .packages{text-align: center;}
 .packages ul{
 	font: 1em Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
@@ -291,8 +264,4 @@ img{
 }
 .packages table td:first-child{text-align: left; width: 25%;}
 .packages table td:last-child{text-align: right; width: 25%;}
-.canvasWrap{
-	padding: 0px;
-	margin:auto;
-}
-.filler{height: 100%; width: 100%;}
+.canvasWrap{padding: 0px; margin:auto;}
